@@ -1,0 +1,18 @@
+project:
+  name: hospital-readmission-ai
+  version: "2.0.0"
+  environment: development
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  sample_dir: data/sample
+
+models:
+  output_dir: models
+
+outputs:
+  output_dir: outputs
+
+logging:
+  level: INFO
